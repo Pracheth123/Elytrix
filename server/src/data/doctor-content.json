@@ -1,0 +1,260 @@
+{
+  "slug": "dr-sravanthi-j",
+  "profile": {
+    "name": "Dr. Sravanthi J",
+    "shortName": "Dr. Sravanthi",
+    "designation": "Consultant Physician",
+    "organisation": "Medicover Hospitals, Hitech City, Hyderabad",
+    "specialization": "Internal Medicine & Diabetology",
+    "qualificationString": "MBBS, DCH, MD (General Medicine)",
+    "experienceYears": "22+",
+    "languages": ["English", "Telugu", "Hindi"],
+    "consultationFee": "₹600",
+    "timings": "Monday – Saturday · 12:00 PM – 7:00 PM",
+    "phone": {
+      "display": "040-68334455",
+      "href": "tel:+914068334455"
+    },
+    "whatsapp": {
+      "display": "+91 70754 93806",
+      "href": "https://wa.me/917075493806?text=Hello%2C%20I%27d%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sravanthi%20J."
+    },
+    "rating": {
+      "percent": 98,
+      "count": 156,
+      "source": "patient reviews on the Medicover Hospitals profile",
+      "url": "https://www.medicoverhospitals.in/doctors/dr-sravanthi-j"
+    },
+    "headshot": {
+      "src": "/images/headshot-placeholder.svg",
+      "alt": "Portrait of Dr. Sravanthi J, Consultant Physician",
+      "todo": "TODO: replace with a professional headshot supplied by the client"
+    }
+  },
+  "hero": {
+    "eyebrow": "Internal Medicine & Diabetology · Hyderabad",
+    "headlinePlain": "Physician first,",
+    "headlineAccent": "diabetologist by focus.",
+    "subline": "Dr. Sravanthi J — MBBS, DCH, MD (General Medicine) — brings 22+ years of internal-medicine experience to adult health and diabetes care at Medicover Hospitals, Hitech City, Hyderabad.",
+    "primaryCta": "Book Appointment",
+    "secondaryCta": "Areas of care",
+    "stats": [
+      { "value": "22+", "label": "years in practice" },
+      { "value": "98%", "label": "patient rating · 156 reviews on Medicover", "href": "https://www.medicoverhospitals.in/doctors/dr-sravanthi-j" },
+      { "value": "₹600", "label": "consultation fee" }
+    ]
+  },
+  "bio": {
+    "heading": "A physician's breadth, a diabetologist's depth",
+    "paragraphs": [
+      "Dr. Sravanthi J is a Consultant Physician at Medicover Hospitals, Hitech City, Hyderabad, with more than 22 years of practice spanning internal medicine, diabetology and child health. Her work centres on getting the diagnosis right first, then building a treatment plan that fits the patient's daily life.",
+      "Alongside diabetes care, she takes a special interest in women's health, adolescent medicine, preventive care, and the management of medical conditions during pregnancy — areas where careful, coordinated physician-led care makes a lasting difference."
+    ],
+    "philosophy": "Good medicine starts with clear communication. Dr. Sravanthi explains every condition in plain language, so patients understand what is happening in their body and can follow their treatment plan with confidence.",
+    "languagesNote": "Consultations in English, Telugu and Hindi."
+  },
+  "qualifications": {
+    "degrees": [
+      { "title": "MBBS", "detail": "Bachelor of Medicine and Bachelor of Surgery" },
+      { "title": "DCH", "detail": "Diploma in Child Health" },
+      { "title": "MD (General Medicine)", "detail": "Doctor of Medicine — General Medicine" }
+    ]
+  },
+  "memberships": [
+    { "name": "Association of Physicians of India (API)", "role": "Life Member" },
+    { "name": "College of Critical Care Medicine (CCCM)", "role": "Member" },
+    { "name": "Research Society for the Study of Diabetes in India (RSSDI)", "role": "Member" },
+    { "name": "Indian Academy of Pediatrics (IAP)", "role": "Member" }
+  ],
+  "fellowships": [
+    { "name": "International Diabetes Federation", "detail": "Fellow · 2025–26" },
+    { "name": "European Association for the Study of Diabetes", "detail": "Fellow · 2025–26" }
+  ],
+  "registration": {
+    "council": "Telangana State Medical Council",
+    "number": "TODO: Telangana State Medical Council registration number",
+    "year": "TODO: year of registration",
+    "verifyUrl": "",
+    "note": "Registration details are being updated and will be displayed here."
+  },
+  "conditions": {
+    "heading": "Conditions treated",
+    "intro": "Diabetes care leads the practice — but as an internal-medicine physician, Dr. Sravanthi manages the conditions that so often travel with it, in one coordinated plan.",
+    "primary": {
+      "title": "Diabetes care",
+      "items": [
+        { "name": "Blood sugar management", "icon": "droplet" },
+        { "name": "Insulin therapy", "icon": "droplet" },
+        { "name": "Long-term diabetic care", "icon": "heartPulse" },
+        { "name": "Diet & lifestyle guidance", "icon": "leaf" }
+      ]
+    },
+    "broader": {
+      "title": "Broader internal medicine",
+      "items": [
+        { "name": "Hypertension", "icon": "heartPulse" },
+        { "name": "Obesity & lifestyle disorders", "icon": "leaf" },
+        { "name": "Thyroid disorders", "icon": "shield" },
+        { "name": "Infections & fever of unknown origin (FUO)", "icon": "shield" },
+        { "name": "Poisoning & acute emergency medical care", "icon": "stethoscope" },
+        { "name": "Maternal medical disorders during pregnancy", "icon": "handHeart" },
+        { "name": "Adolescent health", "icon": "handHeart" },
+        { "name": "Women's health, post-menopause & osteoporosis", "icon": "handHeart" },
+        { "name": "Vitamin deficiency & anaemia", "icon": "droplet" },
+        { "name": "Preventive checkups & adult immunisation", "icon": "shield" }
+      ]
+    }
+  },
+  "services": {
+    "heading": "Services & consultation",
+    "intro": "Straightforward, structured care — you always know the fee, the timings, and what happens next.",
+    "items": [
+      {
+        "title": "In-clinic consultation",
+        "description": "A full internal-medicine evaluation at the Medicover Out Patient Center, HITEC City. Consultation fee ₹600, Monday to Saturday, 12:00 PM – 7:00 PM.",
+        "icon": "stethoscope"
+      },
+      {
+        "title": "Diabetes management & follow-up",
+        "description": "Blood sugar management, insulin initiation and adjustment, and long-term diabetic care on a structured follow-up rhythm — with practical diet and lifestyle guidance at every review.",
+        "icon": "droplet"
+      },
+      {
+        "title": "Preventive health & adult immunisation",
+        "description": "Preventive health checkups and adult vaccination, including immunisation for high-risk conditions.",
+        "icon": "shield"
+      },
+      {
+        "title": "Women's & adolescent health",
+        "description": "Post-menopause care, osteoporosis, adolescent medicine, and management of medical conditions during pregnancy — alongside your obstetrician.",
+        "icon": "handHeart"
+      },
+      {
+        "title": "Acute medical care",
+        "description": "Assessment and treatment of infections, fever of unknown origin, poisoning, and acute medical emergencies.",
+        "icon": "heartPulse"
+      },
+      {
+        "title": "Second opinions",
+        "description": "An independent review of your existing reports, prescriptions and treatment plan before any change is discussed.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "careerTimeline": {
+    "heading": "Experience & career roadmap",
+    "intro": "22+ years, from residency at Osmania General Hospital to consultant practice at Medicover Hospitals.",
+    "steps": [
+      { "stage": "Education", "title": "MBBS · DCH · MD (General Medicine)", "org": "" },
+      { "stage": "Residency", "title": "Resident", "org": "Osmania General Hospital" },
+      { "stage": "Practice", "title": "Consultant Physician & Paediatrician", "org": "Neelima Hospital" },
+      { "stage": "Practice", "title": "Consultant Physician", "org": "Saivani Hospital" },
+      { "stage": "Practice", "title": "Consultant Physician", "org": "Navjeevan Hospital" },
+      { "stage": "Practice", "title": "Consultant Physician", "org": "Fernandez Hospital" },
+      { "stage": "Present", "title": "Consultant Physician", "org": "Medicover Hospitals, Hitech City, Hyderabad", "current": true }
+    ]
+  },
+  "resources": {
+    "heading": "Patient education",
+    "intro": "Living well with diabetes and other long-term conditions is half self-management. These short guides are being prepared to help.",
+    "items": [
+      { "title": "HbA1c, explained", "blurb": "What your three-month average blood sugar means, and how often to test it.", "status": "TODO: full article to be supplied by the client" },
+      { "title": "Eating well with diabetes — Indian meals", "blurb": "Building a balanced plate with everyday Indian food, without giving up what you love.", "status": "TODO: full article to be supplied by the client" },
+      { "title": "Home blood-sugar monitoring", "blurb": "When to check, how to record readings, and what the numbers are telling you.", "status": "TODO: full article to be supplied by the client" },
+      { "title": "Moving more, safely", "blurb": "Practical exercise guidance when you live with diabetes or high blood pressure.", "status": "TODO: full article to be supplied by the client" },
+      { "title": "Understanding thyroid test reports", "blurb": "TSH, T3 and T4 in plain language — what's measured and why it matters.", "status": "TODO: full article to be supplied by the client" },
+      { "title": "Blood pressure at home", "blurb": "How to measure correctly, and what to note down before your next visit.", "status": "TODO: full article to be supplied by the client" }
+    ]
+  },
+  "publications": {
+    "heading": "Publications, research & conferences",
+    "intro": "Professional standing beyond day-to-day practice.",
+    "items": [],
+    "todo": "TODO: list of published papers, conference presentations and invited talks to be supplied by the client (if any). Section renders fellowships meanwhile."
+  },
+  "reviews": {
+    "heading": "What patients say",
+    "percent": 98,
+    "count": 156,
+    "body": "Dr. Sravanthi holds a 98% patient rating from 156 reviews on her Medicover Hospitals profile. In line with medical-ethics guidance, we don't publish patient testimonials on this website — you can read independent feedback directly on the hospital's profile.",
+    "ctaLabel": "Read reviews on Medicover",
+    "url": "https://www.medicoverhospitals.in/doctors/dr-sravanthi-j"
+  },
+  "booking": {
+    "heading": "Book an appointment",
+    "intro": "Choose whichever channel suits you — the form below, a phone call, or WhatsApp.",
+    "afterBooking": [
+      "The clinic team calls you back to confirm your slot.",
+      "Bring your previous reports, a list of the medicines you currently take, and your most recent HbA1c report if you have diabetes."
+    ],
+    "formErrorFallback": "Something went wrong sending your request. Please call or WhatsApp us instead — we'll book you in right away."
+  },
+  "clinic": {
+    "name": "Medicover Out Patient Center",
+    "addressLines": ["HUDA Techno Enclave, HITEC City", "Hyderabad, Telangana 500081"],
+    "mapUrl": "https://maps.app.goo.gl/VNdGfvvqEFjhM5Mz9",
+    "mapEmbedSrc": "https://www.google.com/maps?q=Medicover+Out+Patient+Center,+HUDA+Techno+Enclave,+HITEC+City,+Hyderabad,+Telangana+500081&output=embed",
+    "timings": "Monday – Saturday · 12:00 PM – 7:00 PM",
+    "photo": {
+      "src": "/images/clinic-placeholder.svg",
+      "alt": "Medicover Out Patient Center, HITEC City",
+      "todo": "TODO: replace with a photograph of the clinic exterior supplied by the client"
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is the consultation fee?",
+      "a": "The consultation fee is ₹600 at the Medicover Out Patient Center, HITEC City. Fees for laboratory tests or procedures, if advised, are separate."
+    },
+    {
+      "q": "When is Dr. Sravanthi available?",
+      "a": "Monday to Saturday, 12:00 PM to 7:00 PM, at the Medicover Out Patient Center, HUDA Techno Enclave, HITEC City, Hyderabad."
+    },
+    {
+      "q": "How do I book an appointment?",
+      "a": "Use the booking form on this page, call 040-68334455, or message on WhatsApp at +91 70754 93806. Once you book, the clinic team confirms your slot with a call."
+    },
+    {
+      "q": "What should I bring to my first visit?",
+      "a": "Any previous medical reports, a list of the medicines you currently take, and your recent test results — including your latest HbA1c report if you have diabetes."
+    },
+    {
+      "q": "Can I consult for a second opinion?",
+      "a": "Yes. Bring your existing reports, prescriptions and test results so they can be reviewed properly before any change to your treatment is discussed."
+    },
+    {
+      "q": "Which conditions does Dr. Sravanthi treat?",
+      "a": "As an internal-medicine physician with a focus on diabetology, she manages diabetes, hypertension, thyroid disorders, obesity and lifestyle disorders, infections and fevers, anaemia and vitamin deficiencies, women's health concerns, and medical conditions during pregnancy, among others."
+    },
+    {
+      "q": "How is diabetes managed over the long term?",
+      "a": "Diabetes care is individualised. It usually combines regular monitoring, medicines or insulin where needed, and practical diet and lifestyle guidance. The aim is steady, sustainable control — reviewed at follow-up visits and adjusted as your needs change."
+    },
+    {
+      "q": "I have blood pressure and thyroid problems along with diabetes. Do I need separate specialists?",
+      "a": "Often, no. These conditions frequently occur together and affect one another. As a physician trained across internal medicine, Dr. Sravanthi manages them within a single, coordinated treatment plan — and refers you to a specialist when a specific condition needs one."
+    },
+    {
+      "q": "Can I consult during pregnancy?",
+      "a": "Yes. Dr. Sravanthi has a special interest in medical disorders during pregnancy — such as diabetes, thyroid problems and high blood pressure — and works alongside your obstetrician to manage them."
+    },
+    {
+      "q": "Which languages does the doctor speak?",
+      "a": "Consultations are available in English, Telugu and Hindi."
+    }
+  ],
+  "footer": {
+    "disclaimer": "The content on this website is for general information only and is not a substitute for professional medical advice, diagnosis or treatment. Always consult a qualified physician about your health. In a medical emergency, go to the nearest hospital immediately.",
+    "registrationNote": "TODO: Telangana State Medical Council Reg. No. (repeat of Section 3a once supplied)",
+    "copyright": "Dr. Sravanthi J · Consultant Physician, Internal Medicine & Diabetology",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Conditions", "href": "#conditions" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Resources", "href": "#resources" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Book", "href": "#book" }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "dr-sravanthi-portfolio-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel-ready deployment of the Dr. Sravanthi J portfolio website (static client + serverless Express API).",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=18.11"
+  },
+  "scripts": {
+    "dev": "concurrently -n client,server -c green,cyan \"npm run dev -w client\" \"npm run dev -w server\"",
+    "build": "npm run build -w client",
+    "seed": "npm run seed -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

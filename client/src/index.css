@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-mist font-body text-charcoal antialiased;
+  }
+  ::selection {
+    @apply bg-sagemist text-charcoal;
+  }
+}
+
+@layer components {
+  /* Deep Sage pill button with uppercase letterspaced label (moodboard primary button) */
+  .btn-pill {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-deepsage px-7 py-3.5 text-xs font-bold uppercase tracking-[0.18em] text-white shadow-pill transition-colors duration-200 hover:bg-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-deepsage;
+  }
+  .btn-pill-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-deepsage bg-transparent px-7 py-3.5 text-xs font-bold uppercase tracking-[0.18em] text-deepsage transition-colors duration-200 hover:bg-softmint focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-deepsage;
+  }
+  .card {
+    @apply rounded-3xl bg-white p-6 shadow-soft;
+  }
+}
+
+/* Scroll-reveal (respects prefers-reduced-motion) */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

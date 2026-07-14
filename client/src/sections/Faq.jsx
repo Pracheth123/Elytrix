@@ -8,6 +8,11 @@ import { ChevronDown } from '../components/Icons.jsx';
 export default function Faq({ faqs }) {
   const [open, setOpen] = useState(0);
 
+  // Hidden for now: fee and appointment-booking questions filtered out of the
+  // data-driven list (applies to both fallback and API content). Remove the
+  // filter to restore them.
+  const visibleFaqs = faqs.filter((faq) => !/consultation fee|book an appointment/i.test(faq.q));
+
   return (
     <section id="faq" aria-labelledby="faq-heading" className="bg-softmint/40 py-20">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
@@ -16,7 +21,7 @@ export default function Faq({ faqs }) {
         </Reveal>
 
         <div className="space-y-3">
-          {faqs.map((faq, i) => {
+          {visibleFaqs.map((faq, i) => {
             const isOpen = open === i;
             return (
               <Reveal key={faq.q} className="overflow-hidden rounded-2xl bg-white shadow-soft">

@@ -3,6 +3,10 @@ import { ArrowRight, Stethoscope, Droplet, Leaf, ExternalLink } from '../compone
 
 // Section 1 — Hero: name, credentials, positioning, CTA, headshot.
 export default function Hero({ hero, profile }) {
+  // Hidden for now: consultation-fee stat filtered out of the data-driven stat
+  // cards (applies to both fallback and API content). Remove the filter to restore.
+  const stats = hero.stats.filter((stat) => !/fee/i.test(stat.label));
+
   return (
     <section id="top" aria-label="Introduction" className="relative overflow-hidden">
       {/* Organic blob gradients (moodboard texture language) */}
@@ -24,16 +28,18 @@ export default function Hero({ hero, profile }) {
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-charcoal/75">{hero.subline}</p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
+            {/* Hidden for now: Book Appointment CTA
             <a href="#book" className="btn-pill">
               {hero.primaryCta} <ArrowRight className="h-4 w-4" />
             </a>
+            */}
             <a href="#conditions" className="btn-pill-outline">
               {hero.secondaryCta}
             </a>
           </div>
 
-          <dl className="mt-10 grid max-w-xl grid-cols-3 gap-4">
-            {hero.stats.map((stat) => (
+          <dl className={`mt-10 grid max-w-xl gap-4 ${stats.length >= 3 ? 'grid-cols-3' : 'grid-cols-2'}`}>
+            {stats.map((stat) => (
               <div key={stat.label} className="rounded-2xl bg-white/70 p-4 shadow-soft">
                 <dt className="order-2 mt-1 block text-xs leading-snug text-charcoal/65">
                   {stat.href ? (

@@ -17,7 +17,9 @@ import CareerTimeline from './sections/CareerTimeline.jsx';
 import Resources from './sections/Resources.jsx';
 import Publications from './sections/Publications.jsx';
 import Reviews from './sections/Reviews.jsx';
-import Booking from './sections/Booking.jsx';
+// Hidden for now: booking/appointment section disabled — restore the import
+// and the <Booking /> element below to bring it back.
+// import Booking from './sections/Booking.jsx';
 import Location from './sections/Location.jsx';
 import Faq from './sections/Faq.jsx';
 import Footer from './sections/Footer.jsx';
@@ -40,7 +42,8 @@ export default function App() {
   return (
     <>
       <Header profile={content.profile} />
-      <main className="pb-16 md:pb-0">
+      {/* pt offsets the floating fixed header, which no longer occupies page flow */}
+      <main className="pb-16 pt-20 md:pb-0 sm:pt-24">
         <Hero hero={content.hero} profile={content.profile} />
         <About bio={content.bio} profile={content.profile} />
         <Credentials
@@ -57,7 +60,7 @@ export default function App() {
         <Publications publications={content.publications} fellowships={content.fellowships} />
         <Divider />
         <Reviews reviews={content.reviews} />
-        <Booking booking={content.booking} profile={content.profile} />
+        {/* Hidden for now: <Booking booking={content.booking} profile={content.profile} /> */}
         <Location clinic={content.clinic} profile={content.profile} />
         <Faq faqs={content.faqs} />
       </main>

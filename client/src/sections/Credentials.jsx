@@ -39,7 +39,7 @@ export default function Credentials({ qualifications, memberships, fellowships }
                   <span>
                     {m.name}
                     {m.role === 'Life Member' && (
-                      <span className="ml-1.5 rounded-full bg-softmint px-2 py-0.5 text-[11px] font-bold text-deepsage">
+                      <span className="ml-1.5 inline-block whitespace-nowrap rounded-full bg-softmint px-2 py-0.5 text-[11px] font-bold text-deepsage">
                         Life Member
                       </span>
                     )}

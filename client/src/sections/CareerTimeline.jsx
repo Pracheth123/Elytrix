@@ -23,9 +23,8 @@ export default function CareerTimeline({ careerTimeline, profile }) {
             <Reveal as="li" key={`${step.title}-${step.org}`} className="relative pb-10 pl-8 last:pb-0 sm:pl-10">
               <span
                 aria-hidden="true"
-                className={`absolute -left-[11px] top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 ${
-                  step.current ? 'border-deepsage bg-deepsage' : 'border-eucalyptus bg-white'
-                }`}
+                className={`absolute -left-[11px] top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 ${step.current ? 'border-deepsage bg-deepsage' : 'border-eucalyptus bg-white'
+                  }`}
               >
                 {step.current && <span className="h-1.5 w-1.5 rounded-full bg-white" />}
               </span>

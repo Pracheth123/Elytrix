@@ -7,9 +7,11 @@
 
     <!-- SEO — descriptive, no superlatives (NMC compliance) -->
     <title>Dr. Sravanthi J — Consultant Physician, Internal Medicine & Diabetology, Hyderabad</title>
+    <!-- Hidden for now (booking disabled): original description ended with
+         "Book by phone, WhatsApp or online." -->
     <meta
       name="description"
-      content="Dr. Sravanthi J, MBBS, DCH, MD (General Medicine) — Consultant Physician at Medicover Hospitals, Hitech City, Hyderabad. 22+ years in internal medicine and diabetology. Consultations Mon–Sat, 12 PM–7 PM. Book by phone, WhatsApp or online."
+      content="Dr. Sravanthi J, MBBS, DCH, MD (General Medicine) — Consultant Physician at Medicover Hospitals, Hitech City, Hyderabad. 22+ years in internal medicine and diabetology. Consultations Mon–Sat, 12 PM–7 PM."
     />
 
     <!-- Open Graph -->
@@ -22,11 +24,11 @@
     <meta property="og:image" content="/images/headshot-placeholder.svg" />
     <meta property="og:locale" content="en_IN" />
 
-    <!-- Fonts: Cormorant Garamond (headings) + Satoshi via Fontshare (body) -->
+    <!-- Fonts: Fraunces (headings) + Satoshi via Fontshare (body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&display=swap"
       rel="stylesheet"
     />
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
@@ -41,7 +43,6 @@
         "medicalSpecialty": ["Internal Medicine", "Diabetology"],
         "knowsLanguage": ["English", "Telugu", "Hindi"],
         "telephone": "+91-40-68334455",
-        "priceRange": "₹600",
         "url": "https://www.medicoverhospitals.in/doctors/dr-sravanthi-j",
         "address": {
           "@type": "PostalAddress",
@@ -66,6 +67,14 @@
     </script>
 
     <!-- FAQ schema (mirrors on-page FAQ content) -->
+    <!-- Hidden for now (booking/fee disabled) — removed from the schemas above/below; restore when re-enabling:
+         Physician schema: "priceRange": "₹600",
+         FAQ entries:
+         { "@type": "Question", "name": "What is the consultation fee?",
+           "acceptedAnswer": { "@type": "Answer", "text": "The consultation fee is ₹600 at the Medicover Out Patient Center, HITEC City. Fees for laboratory tests or procedures, if advised, are separate." } },
+         { "@type": "Question", "name": "How do I book an appointment?",
+           "acceptedAnswer": { "@type": "Answer", "text": "Use the booking form on this page, call 040-68334455, or message on WhatsApp at +91 70754 93806. Once you book, the clinic team confirms your slot with a call." } }
+    -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -73,18 +82,8 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is the consultation fee?",
-            "acceptedAnswer": { "@type": "Answer", "text": "The consultation fee is ₹600 at the Medicover Out Patient Center, HITEC City. Fees for laboratory tests or procedures, if advised, are separate." }
-          },
-          {
-            "@type": "Question",
             "name": "When is Dr. Sravanthi available?",
             "acceptedAnswer": { "@type": "Answer", "text": "Monday to Saturday, 12:00 PM to 7:00 PM, at the Medicover Out Patient Center, HUDA Techno Enclave, HITEC City, Hyderabad." }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I book an appointment?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Use the booking form on this page, call 040-68334455, or message on WhatsApp at +91 70754 93806. Once you book, the clinic team confirms your slot with a call." }
           },
           {
             "@type": "Question",

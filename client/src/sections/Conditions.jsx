@@ -38,9 +38,9 @@ export default function Conditions({ conditions }) {
           <h3 className="mb-5 text-center text-xs font-bold uppercase tracking-[0.22em] text-deepsage">
             {conditions.broader.title}
           </h3>
-          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="flex flex-wrap justify-center gap-3">
             {conditions.broader.items.map((item) => (
-              <li key={item.name} className="flex items-center gap-3 rounded-2xl bg-white p-4 shadow-soft">
+              <li key={item.name} className="flex items-center gap-3 rounded-2xl bg-white p-4 shadow-soft w-full sm:w-[calc(50%-6px)] lg:w-[calc(33.333%-8px)]">
                 <MotifIcon name={item.icon} className="h-5 w-5 shrink-0 text-deepsage" />
                 <span className="text-sm font-medium leading-snug text-charcoal/85">{item.name}</span>
               </li>

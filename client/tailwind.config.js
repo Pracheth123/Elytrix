@@ -16,7 +16,7 @@ export default {
         sagedeep: '#7D9D8A' // gradient end
       },
       fontFamily: {
-        heading: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        heading: ['Fraunces', 'Georgia', 'serif'],
         body: ['Satoshi', 'Inter', 'system-ui', '-apple-system', 'sans-serif']
       },
       boxShadow: {

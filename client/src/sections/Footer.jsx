@@ -5,6 +5,9 @@ import { HeartPulse } from '../components/Icons.jsx';
 // (Section 3a remains its primary home).
 export default function Footer({ footer, profile }) {
   const showRegRepeat = !String(footer.registrationNote).startsWith('TODO');
+  // Hidden for now: the #book quick link is filtered out while the booking
+  // section is disabled. Remove the filter to restore it.
+  const links = footer.links.filter((link) => link.href !== '#book');
   return (
     <footer className="bg-charcoal pb-24 pt-14 text-white md:pb-14">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -19,7 +22,7 @@ export default function Footer({ footer, profile }) {
           </div>
           <nav aria-label="Footer">
             <ul className="grid grid-cols-2 gap-x-10 gap-y-2.5 sm:grid-cols-3">
-              {footer.links.map((link) => (
+              {links.map((link) => (
                 <li key={link.href}>
                   <a href={link.href} className="text-sm text-white/75 transition-colors hover:text-sagemist">
                     {link.label}

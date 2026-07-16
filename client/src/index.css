@@ -5,6 +5,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* keep anchor targets clear of the floating fixed header */
+    scroll-padding-top: 6rem;
   }
   body {
     @apply bg-mist font-body text-charcoal antialiased;

@@ -147,11 +147,17 @@
     "steps": [
       { "stage": "Education", "title": "MBBS · DCH · MD (General Medicine)", "org": "" },
       { "stage": "Residency", "title": "Resident", "org": "Osmania General Hospital" },
-      { "stage": "Practice", "title": "Consultant Physician & Paediatrician", "org": "Neelima Hospital" },
-      { "stage": "Practice", "title": "Consultant Physician", "org": "Saivani Hospital" },
-      { "stage": "Practice", "title": "Consultant Physician", "org": "Navjeevan Hospital" },
-      { "stage": "Practice", "title": "Consultant Physician", "org": "Fernandez Hospital" },
-      { "stage": "Present", "title": "Consultant Physician", "org": "Medicover Hospitals, Hitech City, Hyderabad", "current": true }
+      {
+        "stage": "Practice & Present",
+        "title": "Consultant Physician",
+        "branches": [
+          { "org": "Neelima Hospital", "role": "Consultant Physician & Paediatrician" },
+          { "org": "Saivani Hospital" },
+          { "org": "Navjeevan Hospital" },
+          { "org": "Fernandez Hospital" },
+          { "org": "Medicover Hospitals, Hitech City, Hyderabad", "current": true }
+        ]
+      }
     ]
   },
   "resources": {

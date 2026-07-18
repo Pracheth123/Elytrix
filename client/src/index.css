@@ -49,3 +49,25 @@
     transition: none;
   }
 }
+
+/* Mobile carousel — hide scrollbar across browsers */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Conditions "Show More" expand/collapse animation */
+.conditions-expand {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease, opacity 0.35s ease;
+}
+.conditions-expand.is-expanded {
+  max-height: 600px;
+  opacity: 1;
+}
+

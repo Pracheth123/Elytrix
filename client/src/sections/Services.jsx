@@ -51,7 +51,8 @@ export default function Services({ services, profile }) {
     <section id="services" aria-labelledby="services-heading" className="py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal id="services-heading">
-          <SectionHeading eyebrow="Services" title="Services &" accent="consultation" intro={stripFee(services.intro)} />
+          {/* <SectionHeading eyebrow="Services" title="Services &" accent="consultation" intro={stripFee(services.intro)} /> */}
+          <SectionHeading /* eyebrow="Services" */ title="Services"  intro={stripFee(services.intro)} />
         </Reveal>
 
         {/* ── Desktop: original grid layout (unchanged) ── */}
